@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-RDS database (Mariadb)
-EKS cluster
-EC2 instance
+--RDS database (Mariadb)
+--EKS cluster
+--EC2 instance
 
