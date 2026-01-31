@@ -1,3 +1,7 @@
 # Deployment-using-Kubernetes
 
-## install the database (Mariadb)
+## Pre-requisites
+RDS database (Mariadb)
+EKS cluster
+EC2 instance
+
