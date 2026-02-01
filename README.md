@@ -99,12 +99,12 @@ docker login -u username
 tag image
 
 ```shell
-docker tag old name (username)/newname
+docker tag oldname (username)/newname
 ```
 Push the image to the dockerhub using 
 
 ```shell
-docker push (username)/backkend:v1
+docker push (username)/newname
 ```
 Now create Pod file for backend
 
@@ -200,12 +200,12 @@ docker build . -t frontend:v1
 ```
 tag image
 ```shell
-docker tag old name (username)/newname
+docker tag oldname (username)/newname
 ```
 Push the image to the dockerhub using 
 
 ```shell
-docker push (username)/frontend:v1
+docker push (username)/newname
 ```
 Create the Deployment file for frontend
 ```shell
