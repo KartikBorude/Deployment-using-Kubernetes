@@ -31,3 +31,29 @@ GRANT ALL PRIVILEGES ON springbackend.* TO 'username'@'localhost' IDENTIFIED BY 
 ```
 replace the username and your_password which you have created
 
+use that created database
+
+```shell
+use student_db;
+```
+creat table
+
+```shell
+CREATE TABLE `students` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `course` varchar(255) DEFAULT NULL,
+  `student_class` varchar(255) DEFAULT NULL,
+  `percentage` double DEFAULT NULL,
+  `branch` varchar(255) DEFAULT NULL,
+  `mobile_number` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+```
+```shell
+exit
+```
+
+
+
