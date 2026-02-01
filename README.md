@@ -13,6 +13,8 @@ step 1 Database setup
 --Clone the repository
 ```shell
    git clone (repostories's url)
+```
+```shell
    git clone https://github.com/Rohit-1920/EasyCRUD-Updated.git
 ```
 
