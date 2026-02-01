@@ -176,6 +176,8 @@ nano .env
 instead of ip address paste the copied dns from backend
 
 VITE_API_URL=http://(___):8080/api
+
+
 VITE_API_URL=http://(ab0a4bbf1276142afbabac8db6418234-2033286948.ap-southeast-2.elb.amazonaws.com):8080/api
 
 create dockerfile for frontend
