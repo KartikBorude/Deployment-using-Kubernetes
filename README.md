@@ -55,7 +55,7 @@ CREATE TABLE `students` (
 exit
 ```
 
-## Now 
+## Now Backend
 
 ```shell
 cd EasyCRUD-Updated/backend
@@ -85,6 +85,8 @@ build backend image
 ```shell
 docker build . -t backend:v1
 ```
+--check the created image
+
 ```shell
 docker images
 ```
@@ -93,7 +95,7 @@ login to dockerhub using
 ```shell
 docker login -u username
 ```
---check the created image
+
 tag image
 
 ```shell
@@ -159,6 +161,7 @@ kubectl get svc
 ```
 copy the generated DNS of backend and paste it in the .env file of frontend
 
+## Now Frontend
 ```shell
 cd ../frontend
 ```
